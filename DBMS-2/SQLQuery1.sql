@@ -32,17 +32,21 @@ WHERE SONG_TITLE LIKE 'S%'
 SELECT* FROM SONGS WHERE
 SONG_TITLE LIKE '%Everybody%'
 
---9. Display Artist Name in Uppercase. 
-
+--9. Display Artist Name in Uppercase
+SELECT UPPER(ARTIST_NAME) FROM ARTIST
 
 --10.  Find the Square Root of the Duration of a Song ‘Good Luck’ 
-
+SELECT SQRT(DURATION) FROM SONGS
+WHERE SONG_TITLE='GOOD LUCK'
 
 --11.  Find Current Date. 
-
+SELECT GETDATE()
 
 --12.  Find the number of albums for each artist. 
-
+SELECT COUNT(ALBUMS.ALBUM_ID),ARTIST.ARTIST_NAME
+FROM ARTIST JOIN ALBUMS
+ON ARTIST.ARTIST_ID=ALBUMS.ARTIST_ID
+GROUP BY ARTIST.ARTIST_NAME
 
 --13.  Retrieve the Album_id which has more than 5 songs in it. 
 
