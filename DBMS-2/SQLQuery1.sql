@@ -49,19 +49,32 @@ ON ARTIST.ARTIST_ID=ALBUMS.ARTIST_ID
 GROUP BY ARTIST.ARTIST_NAME
 
 --13.  Retrieve the Album_id which has more than 5 songs in it. 
-
+SELECT ALBUM_ID,COUNT(SONG_ID) FROM SONGS
+GROUP BY ALBUM_ID HAVING
+COUNT(SONG_ID)>5
 
 --14.  Retrieve all songs from the album 'Album1'. (using Subquery) 
-
+SELECT * FROM SONGS 
+WHERE 
+ALBUM_ID=(SELECT ALBUM_ID FROM 
+ALBUMS WHERE ALBUM_TITLE='ALBUM1')
 
 --15.  Retrieve all albums name from the artist ‘Aparshakti Khurana’ (using Subquery) 
+SELECT ALBUM_TITLE FROM ALBUMS 
+WHERE ARTIST_ID IN (SELECT ARTIST_ID
+FROM ARTIST WHERE ARTIST_NAME='Aparshakti Khurana')
 
-
---16.  Retrieve all the song titles with its album title. 
-
+--16.  Retrieve all the song titles with its album title
+SELECT SONGS.SONG_TITLE,ALBUMS.ALBUM_TITLE
+FROM SONGS JOIN ALBUMS ON 
+ALBUMS.ALBUM_ID=SONGS.ALBUM_ID
+GROUP BY SONGS.SONG_TITLE,ALBUMS.ALBUM_TITLE
 
 --17.  Find all the songs which are released in 2020. 
-
+SELECT SONGS.SONG_TITLE
+FROM SONGS JOIN ALBUMS ON 
+ALBUMS.ALBUM_ID=SONGS.ALBUM_ID
+WHERE ALBUMS.RELEASE_YEAR=2020
 
 --18.  Create a view called ‘Fav_Songs’ from the songs table having songs with song_id 101-105.  
 
