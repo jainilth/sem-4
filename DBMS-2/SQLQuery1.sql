@@ -77,13 +77,23 @@ ALBUMS.ALBUM_ID=SONGS.ALBUM_ID
 WHERE ALBUMS.RELEASE_YEAR=2020
 
 --18.  Create a view called ‘Fav_Songs’ from the songs table having songs with song_id 101-105.  
-
+CREATE VIEW FAV_SONGS
+AS 
+SELECT * FROM SONGS 
+WHERE SONG_ID BETWEEN 101 AND 105
 
 --19.  Update a song name to ‘Jannat’ of song having song_id 101 in Fav_Songs view. 
+UPDATE FAV_SONGS
+SET SONG_TITLE='JANNAT'
+WHERE SONG_ID=101
 
+SELECT*FROM FAV_SONGS
 
 --20.  Find all artists who have released an album in 2020.  
-
+SELECT ARTIST.ARTIST_NAME,ALBUMS.ALBUM_TITLE
+FROM ARTIST JOIN ALBUMS
+ON ARTIST.ARTIST_ID=ALBUMS.ARTIST_ID
+WHERE ALBUMS.RELEASE_YEAR=2020
 
 --21.  Retrieve all songs by Shreya Ghoshal and order them by duration.
 

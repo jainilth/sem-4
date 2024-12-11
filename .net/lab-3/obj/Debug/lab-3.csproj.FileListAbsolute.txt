@@ -1,0 +1,7 @@
+D:\jainil\sem-4\.net\lab-3\bin\Debug\lab-3.exe.config
+D:\jainil\sem-4\.net\lab-3\bin\Debug\lab-3.exe
+D:\jainil\sem-4\.net\lab-3\bin\Debug\lab-3.pdb
+D:\jainil\sem-4\.net\lab-3\obj\Debug\lab-3.csproj.AssemblyReference.cache
+D:\jainil\sem-4\.net\lab-3\obj\Debug\lab-3.csproj.CoreCompileInputs.cache
+D:\jainil\sem-4\.net\lab-3\obj\Debug\lab-3.exe
+D:\jainil\sem-4\.net\lab-3\obj\Debug\lab-3.pdb
