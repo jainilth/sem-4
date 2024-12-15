@@ -21,6 +21,7 @@ CREATE TABLE Person (
  FOREIGN KEY (DesignationID) REFERENCES Designation(DesignationID)
 );
 
+--1. Department, Designation & Person Table’s INSERT, UPDATE & DELETE Procedures.
 create or alter procedure PR_Department_Insert
 @DepartmentId int,
 @DepartmentName varchar(100)
@@ -143,3 +144,55 @@ begin
 	where 
 	PersonId=@PersonId
 end
+
+--2. Department, Designation & Person Table’s SELECTBYPRIMARYKEY
+create or alter proc PR_Department_SelectById
+@DepartmentId int
+as
+begin 
+	select * from department
+	where 
+	DepartmentID=@DepartmentId
+end
+
+exec PR_Department_SelectById 1
+
+
+--3. Department, Designation & Person Table’s (If foreign key is available then do write join and takecolumns on select list)
+create or alter proc PR_Department_Select
+as
+begin
+	select * from Department
+end
+
+exec PR_Department_Select
+
+create or alter proc PR_Designation_Select
+as
+begin
+	select * from Designation
+end
+
+create or alter proc PR_Person_Select
+as
+begin
+	select Person.FirstName,Person.LastName,
+	Person.Salary,Person.JoiningDate,Department.DepartmentName
+	,Designation.DesignationName
+	from Department	join person
+	on Department.DepartmentID=Person.DepartmentID
+	join Designation
+	on Designation.DesignationID=Person.DesignationID
+end
+
+exec PR_Person_Select
+
+--4. Create a Procedure that shows details of the first 3 persons
+create or alter proc PR_Person_Top3
+as
+begin
+	select top 3 * from
+	Person
+end
+
+exec PR_Person_Top3
