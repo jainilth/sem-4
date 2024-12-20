@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|d:\\jainil\\sem-4\\.net\\lab-2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|D:\\jainil\\sem-4\\.net\\lab-2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|d:\\jainil\\sem-4\\.net\\lab-2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|D:\\jainil\\sem-4\\.net\\lab-2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Rectangle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:46:39.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T11:46:39.847Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Student.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:29:59.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T11:29:59.547Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Bank_Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T05:47:19.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T05:47:19.545Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Staff.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAIwAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T05:00:30.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T05:00:30.233Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Candidate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:42:52.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T04:42:52.962Z"
             }
           ]
         }
