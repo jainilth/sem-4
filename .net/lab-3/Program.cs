@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab_3;
 
 namespace lab_3
 {
@@ -11,12 +12,12 @@ namespace lab_3
         static void Main(string[] args)
         {
             //Program 1
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
             try
             {
-                int ans = a / b;
-                Console.WriteLine(ans);
+                int a1 = Convert.ToInt32(Console.ReadLine());
+                int b = Convert.ToInt32(Console.ReadLine());
+                int ans1= a1 / b;
+                Console.WriteLine(ans1);
             }
             catch (DivideByZeroException)
             {
@@ -26,10 +27,10 @@ namespace lab_3
             //Program 2
             try
             {
-                int[] a = new int[5];
+                int[] arr4 = new int[5];
                 for (int i = 0; i < 6; i++)
                 {
-                    a[i] = Convert.ToInt32(Console.ReadLine());
+                    arr4[i] = Convert.ToInt32(Console.ReadLine());
                 }
             }
             catch (IndexOutOfRangeException)
@@ -38,10 +39,7 @@ namespace lab_3
             }
 
             //Program - 3
-
-            Calculate1 c = new Calculate1();
-            Console.WriteLine("Sum Of Two = " + c.SumOfTwo(2, 5));
-            Console.WriteLine("Sum Of Three = " + c.SumOfThree(3, 4, 5));
+            //in class sum file
 
             //Program - 4
 
@@ -50,11 +48,11 @@ namespace lab_3
             Console.WriteLine("Substraction Of Two Number = " + r.Substraction(11, 5));
 
             //Program - 5
-            String str = "   Hello World!  ";
-            Console.WriteLine("Lower Case : " + str.ToLower());
-            Console.WriteLine("Upper Case : " + str.ToUpper());
-            Console.WriteLine("Substring : " + str.Substring(2, 8));
-            Console.WriteLine("Trim : " + str.Trim());
+            String str1 = "   Hello World!  ";
+            Console.WriteLine("Lower Case : " + str1.ToLower());
+            Console.WriteLine("Upper Case : " + str1.ToUpper());
+            Console.WriteLine("Substring : " + str1.Substring(2, 8));
+            Console.WriteLine("Trim : " + str1.Trim());
 
             //Program - 6
             Console.WriteLine("Enter a String : ");
@@ -92,8 +90,8 @@ namespace lab_3
             Console.Write("Enter a Number : ");
             try
             {
-                int a = int.Parse(Console.ReadLine());
-                if (a % 2 != 0) throw new Exception("Entered Number Is Odd");
+                int d = int.Parse(Console.ReadLine());
+                if (d % 2 != 0) throw new Exception("Entered Number Is Odd");
             }
             catch (Exception ex)
             {
@@ -102,8 +100,8 @@ namespace lab_3
 
             //Program - 9
             Console.Write("Enter a String : ");
-            String str = Console.ReadLine();
-            String[] strArr = str.Split(new char[] { ' ' });
+            String str2 = Console.ReadLine();
+            String[] strArr = str2.Split(new char[] { ' ' });
             int maxIndex = 0, maxLen = 0;
             for (int i = 0; i < strArr.Length; i++)
             {

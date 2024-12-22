@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|D:\\jainil\\sem-4\\.net\\lab-2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|D:\\jainil\\sem-4\\.net\\lab-2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|d:\\jainil\\sem-4\\.net\\lab-2\\furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|d:\\jainil\\sem-4\\.net\\lab-2\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|d:\\jainil\\sem-4\\.net\\lab-2\\account_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:account_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|d:\\jainil\\sem-4\\.net\\lab-2\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|D:\\jainil\\sem-4\\.net\\lab-2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|solutionrelative:rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC85EA90-5E1B-4D18-A6CC-B53E2C52F12A}|lab-2.csproj|D:\\jainil\\sem-4\\.net\\lab-2\\bank_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,31 +50,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Rectangle.cs",
-              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Rectangle.cs",
-              "RelativeDocumentMoniker": "Rectangle.cs",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Rectangle.cs",
-              "RelativeToolTip": "Rectangle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Furniture.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Furniture.cs",
+              "RelativeDocumentMoniker": "Furniture.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Furniture.cs",
+              "RelativeToolTip": "Furniture.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:46:39.847Z"
+              "WhenOpened": "2024-12-20T05:08:53.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Distance.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Distance.cs",
+              "RelativeDocumentMoniker": "Distance.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Distance.cs",
+              "RelativeToolTip": "Distance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:29:59.547Z"
+              "WhenOpened": "2024-12-20T05:04:31.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Salary.cs",
+              "RelativeDocumentMoniker": "Salary.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Salary.cs",
+              "RelativeToolTip": "Salary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:02:52.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -68,26 +99,66 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T04:24:08.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Account_Details.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Account_Details.cs",
+              "RelativeDocumentMoniker": "Account_Details.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Account_Details.cs",
+              "RelativeToolTip": "Account_Details.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:57:05.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Rectangle.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Rectangle.cs",
+              "RelativeToolTip": "Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:46:39.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:29:59.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Bank_Account.cs",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Bank_Account.cs",
               "RelativeDocumentMoniker": "Bank_Account.cs",
               "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-2\\Bank_Account.cs",
               "RelativeToolTip": "Bank_Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T05:47:19.545Z"
+              "WhenOpened": "2024-12-06T05:47:19.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Staff.cs",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Staff.cs",
               "RelativeDocumentMoniker": "Staff.cs",
@@ -99,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Candidate.cs",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-2\\Candidate.cs",
               "RelativeDocumentMoniker": "Candidate.cs",

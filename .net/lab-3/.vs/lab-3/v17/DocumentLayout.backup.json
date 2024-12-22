@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\jainil\\sem-4\\.net\\lab-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|d:\\jainil\\sem-4\\.net\\lab-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|d:\\jainil\\sem-4\\.net\\lab-3\\calculate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|solutionrelative:calculate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|D:\\jainil\\sem-4\\.net\\lab-3\\sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|solutionrelative:sum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|d:\\jainil\\sem-4\\.net\\lab-3\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|solutionrelative:shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|d:\\jainil\\sem-4\\.net\\lab-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53355BF-0A7D-422A-A1E1-26366681292F}|lab-3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,24 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Sum.cs",
-              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-3\\Sum.cs",
-              "RelativeDocumentMoniker": "Sum.cs",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-3\\Sum.cs",
-              "RelativeToolTip": "Sum.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBEAAAAJAAAAAAAAAA==",
+              "Title": "Shape.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-3\\Shape.cs",
+              "RelativeDocumentMoniker": "Shape.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-3\\Shape.cs",
+              "RelativeToolTip": "Shape.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:07:16.335Z"
+              "WhenOpened": "2024-12-22T15:14:32.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Calculate1.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-3\\Calculate1.cs",
+              "RelativeDocumentMoniker": "Calculate1.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-3\\Calculate1.cs",
+              "RelativeToolTip": "Calculate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:08:11.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T06:55:38.795Z",
               "EditorCaption": ""

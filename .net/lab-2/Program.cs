@@ -39,8 +39,8 @@ namespace lab_2
             account.DisplayAccountDetails();
 
             //Program 4
-            Student s = new Student(12315, "jainil", 2, 10, 8.6);
-            s.DisplayStudentDetails();
+            Student stu = new Student(12315, "jainil", 2, 10, 8.6);
+            stu.DisplayStudentDetails();
 
             //Program 5
             Rectangle r = new Rectangle(5, 10);
