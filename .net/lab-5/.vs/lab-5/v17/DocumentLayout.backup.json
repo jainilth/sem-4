@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2D0EAC1C-AF3E-4511-8433-60392B5665EB}|lab-5.csproj|d:\\jainil\\sem-4\\.net\\lab-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D0EAC1C-AF3E-4511-8433-60392B5665EB}|lab-5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0EAC1C-AF3E-4511-8433-60392B5665EB}|lab-5.csproj|d:\\jainil\\sem-4\\.net\\lab-5\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D0EAC1C-AF3E-4511-8433-60392B5665EB}|lab-5.csproj|solutionrelative:time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Time.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-5\\Time.cs",
+              "RelativeDocumentMoniker": "Time.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-5\\Time.cs",
+              "RelativeToolTip": "Time.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T06:54:40.908Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\lab-5\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-5\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAzAAAAAAAAAA==",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\lab-5\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwHkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T06:48:50.088Z",
               "EditorCaption": ""

@@ -48,7 +48,7 @@ VALUES
     (204, 'Project Delta', '2020-10-10', '2021-10-09', 4), 
     (205, 'Project Epsilon', '2024-04-01', '2025-03-31', 5);
 
---Part – A
+--Part ï¿½ A
 --1. Create Stored Procedure for Employee table As User enters either First Name or Last Name and basedon this you must give EmployeeID, DOB, Gender & Hiredate.
 create or alter proc PR_Employee_SelectByName
 @FirstName varchar(100)=null,
@@ -64,7 +64,7 @@ end
 exec PR_Employee_SelectByName @LastName='Doe'
 
 --2. Create a Procedure that will accept Department Name and based on that gives employees list whobelongs to that department. 
-create or alter proc PR_lab3_A3
+create or alter proc PR_lab3_A2
 @DepartmentName varchar(50)
 as
 begin
@@ -74,10 +74,10 @@ begin
 	where Departments.DepartmentName=@DepartmentName
 end
 
-exec PR_lab3_A3 'HR'
+exec PR_lab3_A2 'HR'
 
 --3. Create a Procedure that accepts Project Name & Department Name and based on that you must give all the project related details.
-create or alter proc PR_lab3_A4
+create or alter proc PR_lab3_A3
 @ProjectName varchar(50)=null,
 @DepartmentName varchar(50)=null
 as
@@ -90,7 +90,7 @@ begin
 end
 
 --4. Create a procedure that will accepts any integer and if salary is between provided integer, then those employee list comes in output.
-create or alter proc PR_lab3_A5
+create or alter proc PR_lab3_A4
 @low int,
 @high int
 as
@@ -99,10 +99,10 @@ begin
 	where Salary between @low and @high
 end
 
-exec PR_lab3_A5 50000,80000
+exec PR_lab3_A4 50000,80000
 
 --5. Create a Procedure that will accepts a date and gives all the employees who all are hired on that date.
-create or alter proc PR_lab3_6
+create or alter proc PR_lab3_5
 @HireDate datetime
 as
 begin
@@ -110,8 +110,8 @@ begin
 	where HireDate=@HireDate
 end
 
---Part – B
---6. Create a Procedure that accepts Gender’s first letter only and based on that employee details will be served.
+--Part ï¿½ B
+--6. Create a Procedure that accepts Genderï¿½s first letter only and based on that employee details will be served.
 create or alter proc PR_lab3_b6
 @flatter varchar(5)
 as
@@ -126,7 +126,7 @@ end
 --8. Create a procedure that will accepts location, if user enters a location any characters, then he/she will get all the departments with all data.
 
 
---Part – C
+--Part ï¿½ C
 --9. Create a procedure that will accepts From Date & To Date and based on that he/she will retrieve Project related data.
 
 

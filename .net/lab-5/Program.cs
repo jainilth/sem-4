@@ -114,6 +114,13 @@ namespace lab_5
             {
                 Console.WriteLine(key + ": " + ht[key]);
             }
+
+
+            Time t1 = new Time(2, 4, 6);
+            t1.getTime();
+            Time t2 = new Time(t1);
+            t1.addTime(t2);
+            t1.getTime();
         }
     }
 }

@@ -155,8 +155,29 @@ begin
 	DepartmentID=@DepartmentId
 end
 
-exec PR_Department_SelectById 1
+exec PR_Department_SelectById 13
 
+create or alter proc PR_Designation_SelectById
+@DesignationId int
+as
+begin 
+	select * from Designation
+	where 
+	DesignationId=@DesignationId
+end
+
+exec PR_Designation_SelectById 13
+
+create or alter proc PR_Person_SelectById
+@PersonId int
+as
+begin 
+	select * from Person
+	where 
+	PersonId=@PersonId
+end
+
+exec PR_person_SelectById 1
 
 --3. Department, Designation & Person Table’s (If foreign key is available then do write join and takecolumns on select list)
 create or alter proc PR_Department_Select
@@ -172,6 +193,8 @@ as
 begin
 	select * from Designation
 end
+
+exec PR_Designation_Select
 
 create or alter proc PR_Person_Select
 as
