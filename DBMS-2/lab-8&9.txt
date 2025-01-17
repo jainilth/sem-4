@@ -172,7 +172,7 @@ db.Deposit.find({$and:[{AMOUNT:{$gt:2000}},{BNAME:{$eq:'VIRAR'}}]})
 
 --8. Display all the documents with CNAME, BNAME and AMOUNT fields from Deposit collection.
 
-db.Deposit.find({}{CNAME:1,BNAME:1,AMOUNT:1,_id:0})
+db.Deposit.find({},{CNAME:1,BNAME:1,AMOUNT:1,_id:0})
 
 --9. Display all the documents of Deposit collection on ascending order by CNAME.
 
@@ -184,7 +184,7 @@ db.Deposit.find().sort({BNAME:-1})
  
 --11. Display all the documents of Deposit collection on ascending order by ACTNO and descending order by AMOUNT.
 
-db.Deposit.find().sort({and :[{ACTNO:1},{AMOUNT:-1}]})
+db.Deposit.find().sort([{ACTNO:1},{AMOUNT:-1}])
  
 --12. Display only two documents of Deposit collection. 
 
