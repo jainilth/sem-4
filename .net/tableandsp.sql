@@ -64,7 +64,6 @@ CREATE TABLE MST_QuizWiseQuestions (
     FOREIGN KEY (UserID) REFERENCES MST_User(UserID)
 );
 
-
 ------------------------------------------------------------------------------------------------------------------------------
 
 -- Stored Procedures for MST_User Table
@@ -154,6 +153,23 @@ BEGIN
 		[dbo].[MST_User].[Modified]
 	FROM [dbo].[MST_User]
 	WHERE [dbo].[MST_User].[UserID] = @UserID
+END
+
+CREATE OR ALTER PROC PR_User_SelectByUserNamePassword
+@UserName varchar(100),
+@password varchar(100)
+AS
+BEGIN
+	select
+		[dbo].[MST_User].[UserName],
+		[dbo].[MST_User].[Password]
+		FROM [dbo].[MST_User]
+		Where
+		([dbo].[MST_User].[UserName] = @UserName or
+		[dbo].[MST_User].[Email] = @UserName or
+		[dbo].[MST_User].[Mobile] = @UserName) and
+		[dbo].[MST_User].[Password] = @password
+
 END
 ------------------------------------------------------------------------------------------------------------------------------
 -- Stored Procedures for MST_Quiz Table
@@ -327,7 +343,6 @@ BEGIN
 		[dbo].[MST_Question].[Modified]
 	FROM [dbo].[MST_Question]
 END
-
 -- Stored Procedures for MST_Question Table (continued)
 CREATE OR ALTER PROC PR_Question_SelectByID
 @QuestionID INT

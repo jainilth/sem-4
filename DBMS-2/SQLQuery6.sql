@@ -96,7 +96,7 @@ end
 close Product_cursor_delete
 deallocate Product_cursor_delete
 
---Part – B
+--Part ï¿½ B
 --5. Create a cursor Product_CursorUpdate that retrieves all the data from the products table and increases the price by 10%.
 declare 
 	@Product_id int,
@@ -143,7 +143,7 @@ WHILE @@FETCH_STATUS = 0
 CLOSE  Product_CursorRounds
 DEALLOCATE  Product_CursorRounds
 
---Part – C
+--Part ï¿½ C
  --Create a Cursor to Archive High-Price Products in a New Table (ArchivedProducts), Moves products 
 --with a price above 50000 to an archive table, removing them from the original Products table
 create table ArchivedProducts(
@@ -178,7 +178,7 @@ WHILE @@FETCH_STATUS = 0
 CLOSE Product_Cursor_INSERT_NEW
 DEALLOCATE Product_Cursor_INSERT_NEW
 
---Create a cursor to insert details of Products into the NewProducts table if the product is “Laptop” 
+--Create a cursor to insert details of Products into the NewProducts table if the product is ï¿½Laptopï¿½ 
 --(Note: Create NewProducts table first with same fields as Products table)
 create table newProduct(
 Product_id INT PRIMARY KEY,

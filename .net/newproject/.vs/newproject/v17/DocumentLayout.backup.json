@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\jainil\\sem-4\\.net\\newproject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\table\\table2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\table\\table2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\table\\table1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\table\\table1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\form\\form1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\form\\form1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cshtml",
-              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Form\\Form1.cshtml",
-              "RelativeDocumentMoniker": "Views\\Form\\Form1.cshtml",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Form\\Form1.cshtml",
-              "RelativeToolTip": "Views\\Form\\Form1.cshtml",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAtwPgAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Table2.cshtml",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Table\\Table2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Table\\Table2.cshtml",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Table\\Table2.cshtml",
+              "RelativeToolTip": "Views\\Table\\Table2.cshtml",
+              "ViewState": "AgIAANcCAAAAAAAAAAAowN4CAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T13:22:19.19Z",
+              "WhenOpened": "2025-01-18T03:19:17.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormController.cs",
-              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Controllers\\FormController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FormController.cs",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Controllers\\FormController.cs",
-              "RelativeToolTip": "Controllers\\FormController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:50:26.756Z",
+              "Title": "Table1.cshtml",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Table\\Table1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Table\\Table1.cshtml",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Table\\Table1.cshtml",
+              "RelativeToolTip": "Views\\Table\\Table1.cshtml",
+              "ViewState": "AgIAAE0CAAAAAAAAAAAowGECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T03:18:29.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TableController.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Controllers\\TableController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TableController.cs",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Controllers\\TableController.cs",
+              "RelativeToolTip": "Controllers\\TableController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T03:17:01.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAAAIsBAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-17T09:30:22.374Z",
               "EditorCaption": ""

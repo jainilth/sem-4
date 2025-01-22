@@ -8,5 +8,17 @@ namespace newproject.Controllers
         {
             return View();
         }
+        public IActionResult Form2()
+        {
+            return View();
+        }
+        public IActionResult Form3()
+        {
+            return View();
+        }
+        public IActionResult Form4()
+        {
+            return View();
+        }
     }
 }
