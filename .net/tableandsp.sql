@@ -229,9 +229,12 @@ BEGIN
 		[dbo].[MST_Quiz].[TotalQuestions],
 		[dbo].[MST_Quiz].[QuizDate],
 		[dbo].[MST_Quiz].[UserID],
+		[dbo].[MST_User].[UserName],
 		[dbo].[MST_Quiz].[Created],
 		[dbo].[MST_Quiz].[Modified]
 	FROM [dbo].[MST_Quiz]
+	join [dbo].[MST_User] on
+	[dbo].[MST_Quiz].[UserID]=[dbo].[MST_User].[UserID]
 END
 
 CREATE OR ALTER PROC PR_Quiz_SelectByID
@@ -331,6 +334,7 @@ BEGIN
 		[dbo].[MST_Question].[QuestionID],
 		[dbo].[MST_Question].[QuestionText],
 		[dbo].[MST_Question].[QuestionLevelID],
+		[dbo].[MST_QuestionLevel].[QuestionLevel],
 		[dbo].[MST_Question].[OptionA],
 		[dbo].[MST_Question].[OptionB],
 		[dbo].[MST_Question].[OptionC],
@@ -339,11 +343,16 @@ BEGIN
 		[dbo].[MST_Question].[QuestionMarks],
 		[dbo].[MST_Question].[IsActive],
 		[dbo].[MST_Question].[UserID],
+		[dbo].[MST_User].[UserID],
 		[dbo].[MST_Question].[Created],
 		[dbo].[MST_Question].[Modified]
 	FROM [dbo].[MST_Question]
+	join [dbo].[MST_User] on
+	[dbo].[MST_Question].[UserID]=[dbo].[MST_User].[UserID]
+	join [dbo].[MST_QuestionLevel] on
+	[dbo].[MST_Question].[QuestionLevelID]=[dbo].[MST_QuestionLevel].[QuestionLevelID]
 END
--- Stored Procedures for MST_Question Table (continued)
+
 CREATE OR ALTER PROC PR_Question_SelectByID
 @QuestionID INT
 AS
@@ -415,9 +424,12 @@ BEGIN
 		[dbo].[MST_QuestionLevel].[QuestionLevelID],
 		[dbo].[MST_QuestionLevel].[QuestionLevel],
 		[dbo].[MST_QuestionLevel].[UserID],
+		[dbo].[MST_User].[UserID],
 		[dbo].[MST_QuestionLevel].[Created],
 		[dbo].[MST_QuestionLevel].[Modified]
 	FROM [dbo].[MST_QuestionLevel]
+	join [dbo].[MST_User] on
+	[dbo].[MST_QuestionLevel].[UserID]=[dbo].[MST_User].[UserID]
 END
 
 CREATE OR ALTER PROC PR_QuestionLevel_SelectByID
@@ -486,11 +498,20 @@ BEGIN
 	SELECT 
 		[dbo].[MST_QuizWiseQuestions].[QuizWiseQuestionsID],
 		[dbo].[MST_QuizWiseQuestions].[QuizID],
+		[dbo].[MST_Quiz].[QuizName],
 		[dbo].[MST_QuizWiseQuestions].[QuestionID],
+		[dbo].[MST_Question].[QuestionText],
 		[dbo].[MST_QuizWiseQuestions].[UserID],
+		[dbo].[MST_User].[UserID],
 		[dbo].[MST_QuizWiseQuestions].[Created],
 		[dbo].[MST_QuizWiseQuestions].[Modified]
 	FROM [dbo].[MST_QuizWiseQuestions]
+	join [dbo].[MST_User] on
+	[dbo].[MST_QuizWiseQuestions].[UserID]=[dbo].[MST_User].[UserID]
+	join [dbo].[MST_Question] on
+	[dbo].[MST_QuizWiseQuestions].[QuestionID]=[dbo].[MST_Question].[QuestionID]
+	join [dbo].[MST_Quiz] on
+	[dbo].[MST_Quiz].[QuizID]=[dbo].[MST_Quiz].[QuizID]
 END
 
 CREATE OR ALTER PROC PR_QuizWiseQuestions_SelectByID

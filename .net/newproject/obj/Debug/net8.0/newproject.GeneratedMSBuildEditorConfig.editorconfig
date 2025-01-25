@@ -20,20 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/jainil/sem-4/.net/newproject/Views/Form/Form1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtMS5jc2h0bWw=
+[D:/jainil/sem-4/.net/newproject/Views/City/AddCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxBZGRDaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/jainil/sem-4/.net/newproject/Views/Form/Form2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtMi5jc2h0bWw=
+[D:/jainil/sem-4/.net/newproject/Views/City/TableCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxUYWJsZUNpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/jainil/sem-4/.net/newproject/Views/Form/Form3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtMy5jc2h0bWw=
+[D:/jainil/sem-4/.net/newproject/Views/Country/AddCountry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxBZGRDb3VudHJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/jainil/sem-4/.net/newproject/Views/Form/Form4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtNC5jc2h0bWw=
+[D:/jainil/sem-4/.net/newproject/Views/Country/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/jainil/sem-4/.net/newproject/Views/Home/Index.cshtml]
@@ -52,12 +52,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/jainil/sem-4/.net/newproject/Views/Table/Table1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcVGFibGUxLmNzaHRtbA==
+[D:/jainil/sem-4/.net/newproject/Views/State/AddState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVcQWRkU3RhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/jainil/sem-4/.net/newproject/Views/Table/Table2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcVGFibGUyLmNzaHRtbA==
+[D:/jainil/sem-4/.net/newproject/Views/State/TableState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVcVGFibGVTdGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/newproject/Views/User/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/newproject/Views/User/TableUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxUYWJsZVVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/jainil/sem-4/.net/newproject/Views/_ViewImports.cshtml]
