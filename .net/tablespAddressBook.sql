@@ -42,16 +42,19 @@ CREATE TABLE [User] (
 CREATE OR ALTER PROC PR_Country_Insert
 @CountryName NVARCHAR(100),
 @CountryCode NVARCHAR(50),
-@UserID INT,
-@CreationDate DATETIME
+@UserID INT
 AS
 BEGIN
     INSERT INTO [dbo].[Country]
+	(
+		CountryName,
+		CountryCode,
+		UserID
+	)
     VALUES
     (
         @CountryName,
         @CountryCode,
-        @CreationDate,
         @UserID
     )
 END
@@ -59,17 +62,13 @@ END
 CREATE OR ALTER PROC PR_Country_Update
 @CountryID INT,
 @CountryName NVARCHAR(100),
-@CountryCode NVARCHAR(50),
-@UserID INT,
-@CreationDate DATETIME
+@CountryCode NVARCHAR(50)
 AS
 BEGIN
     UPDATE [dbo].[Country]
     SET 
         [dbo].[Country].[CountryName] = @CountryName,
-        [dbo].[Country].[CountryCode] = @CountryCode,
-        [dbo].[Country].[CreationDate] = @CreationDate,
-        [dbo].[Country].[UserID] = @UserID
+        [dbo].[Country].[CountryCode] = @CountryCode
     WHERE [dbo].[Country].[CountryID] = @CountryID
 END
 
@@ -89,8 +88,10 @@ BEGIN
         [dbo].[Country].[CountryName],
         [dbo].[Country].[CountryCode],
         [dbo].[Country].[CreationDate],
-        [dbo].[Country].[UserID]
+        [dbo].[User].[UserName]
     FROM [dbo].[Country]
+	join [dbo].[User]
+	on [dbo].[Country].[UserID]=[dbo].[User].[UserID]
 END
 
 CREATE OR ALTER PROC PR_Country_SelectByID
@@ -101,8 +102,10 @@ BEGIN
         [dbo].[Country].[CountryName],
         [dbo].[Country].[CountryCode],
         [dbo].[Country].[CreationDate],
-        [dbo].[Country].[UserID]
+        [dbo].[User].[UserName]
     FROM [dbo].[Country]
+	join [dbo].[User]
+	on [dbo].[Country].[UserID]=[dbo].[User].[UserID]
     WHERE [dbo].[Country].[CountryID] = @CountryID
 END
 
@@ -110,17 +113,21 @@ CREATE OR ALTER PROC PR_State_Insert
 @CountryID INT,
 @StateName NVARCHAR(100),
 @StateCode NVARCHAR(50),
-@UserID INT,
-@CreationDate DATETIME
+@UserID INT
 AS
 BEGIN
     INSERT INTO [dbo].[State]
+	(
+        CountryID,
+        StateName,
+        StateCode,
+        UserID
+    )
     VALUES
     (
         @CountryID,
         @StateName,
         @StateCode,
-        @CreationDate,
         @UserID
     )
 END
@@ -130,8 +137,7 @@ CREATE OR ALTER PROC PR_State_Update
 @CountryID INT,
 @StateName NVARCHAR(100),
 @StateCode NVARCHAR(50),
-@UserID INT,
-@CreationDate DATETIME
+@UserID INT
 AS
 BEGIN
     UPDATE [dbo].[State]
@@ -139,7 +145,6 @@ BEGIN
         [dbo].[State].[CountryID] = @CountryID,
         [dbo].[State].[StateName] = @StateName,
         [dbo].[State].[StateCode] = @StateCode,
-        [dbo].[State].[CreationDate] = @CreationDate,
         [dbo].[State].[UserID] = @UserID
     WHERE [dbo].[State].[StateID] = @StateID
 END

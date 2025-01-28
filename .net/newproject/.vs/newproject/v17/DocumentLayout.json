@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\jainil\\sem-4\\.net\\newproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -30,18 +30,17 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T13:02:34.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T13:02:34.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQBAAAAAAAAAAAAACwBAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAAACoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-17T09:30:22.374Z",
               "EditorCaption": ""
