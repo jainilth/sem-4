@@ -2,13 +2,13 @@
 
 namespace Quiz_Management.Controllers
 {
-    public class UserController : Controller
+    public class QuizController : Controller
     {
-        public IActionResult Table1()
+        public IActionResult Table()
         {
             return View();
         }
-        public IActionResult AddUser()
+        public IActionResult QuizAdd()
         {
             return View();
         }
