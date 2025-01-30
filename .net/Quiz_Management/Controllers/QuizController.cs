@@ -4,7 +4,7 @@ namespace Quiz_Management.Controllers
 {
     public class QuizController : Controller
     {
-        public IActionResult Table()
+        public IActionResult QuizList()
         {
             return View();
         }

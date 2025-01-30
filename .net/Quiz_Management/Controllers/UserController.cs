@@ -4,11 +4,11 @@ namespace Quiz_Management.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Table1()
+        public IActionResult UserList()
         {
             return View();
         }
-        public IActionResult AddUser()
+        public IActionResult AddUsers()
         {
             return View();
         }
