@@ -2,24 +2,24 @@
 
 
 
-<main id="main" class="main">
+<form id="main" class="main" method="post" >
     <div class="container mt-5">
         <div class="card shadow p-4">
             <h2 class="text-center mb-4">Student Form</h2>
-            <form>
                 <div class="mb-3">
-                    <label for="studentName" class="form-label">Full Name</label>
-                    <input type="text" asp-for="Name" class="form-control" id="studentName" name="studentName" required>
-                    <span asp-validation-for="Name" class="text-danger "></span>
+                    <label class="form-label">Full Name</label>
+                    <input type="text" asp-for="Name" class="form-control" >
+                    <span asp-validation-for="Name" class="text text-danger "></span>
                 </div>
 
                 <div class="mb-3">
-                    <label for="studentId" class="form-label">Student ID</label>
-                    <input type="text" asp-for="Id" class="form-control" id="studentId" name="studentId" required>
+                    <label  class="form-label">Student ID</label>
+                    <input type="text" asp-for="Id" class="form-control" >
+                    <span asp-validation-for="Id" class="text text-danger "></span>
                 </div>
 
                 <button type="submit" class="btn btn-primary w-100">Submit</button>
-            </form>
         </div>
     </div>
-</main>
+</form>
+

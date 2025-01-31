@@ -298,12 +298,12 @@
                 </a>
                 <ul id="Question-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="forms-elements.html">
+                        <a asp-area="" asp-controller="Question" asp-action="QuestionList">
                             <i class="bi bi-circle"></i><span>Question List</span>
                         </a>
                     </li>
                     <li>
-                        <a href="forms-layouts.html">
+                        <a asp-area="" asp-controller="Question" asp-action="AddQuestion">
                             <i class="bi bi-circle"></i><span>Add Question</span>
                         </a>
                     </li>
@@ -311,40 +311,40 @@
             </li><!-- End Qestion Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-                    <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+                <a class="nav-link collapsed" data-bs-target="#QuestionLevel-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-bar-chart"></i><span>QuestionLevel</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
-                <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <ul id="QuestionLevel-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="tables-general.html">
-                            <i class="bi bi-circle"></i><span>General Tables</span>
+                        <a asp-area="" asp-controller="QuestionLevel" asp-action="QuestionLevelList">
+                            <i class="bi bi-circle"></i><span>QuestionLevel List</span>
                         </a>
                     </li>
                     <li>
-                        <a href="tables-data.html">
-                            <i class="bi bi-circle"></i><span>Data Tables</span>
+                        <a asp-area="" asp-controller="QuestionLevel" asp-action="AddQuestionLevel">
+                            <i class="bi bi-circle"></i><span>Add QuestionLevel</span>
                         </a>
                     </li>
                 </ul>
-            </li><!-- End Tables Nav -->
+            </li><!-- End QuestionLevel Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-                    <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+                <a class="nav-link collapsed" data-bs-target="#QuizWiseQuestion-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-layout-text-window-reverse"></i><span>QuizWiseQuestion</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
-                <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <ul id="QuizWiseQuestion-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="charts-chartjs.html">
-                            <i class="bi bi-circle"></i><span>Chart.js</span>
+                        <a asp-area="" asp-controller="QuizWiseQuestion" asp-action="QuizWiseQuestionList">
+                            <i class="bi bi-circle"></i><span>QuizWiseQuestion List</span>
                         </a>
                     </li>
                     <li>
-                        <a href="charts-apexcharts.html">
-                            <i class="bi bi-circle"></i><span>ApexCharts</span>
+                        <a asp-area="" asp-controller="QuizWiseQuestion" asp-action="AddQuizWiseQuestion">
+                            <i class="bi bi-circle"></i><span>Add QuizWiseQuestion</span>
                         </a>
                     </li>
                 </ul>
-            </li><!-- End Charts Nav -->
+            </li><!-- End QuizWiseQuestion Nav -->
 
             <li class="nav-item">
                 <a class="nav-link collapsed" data-bs-target="#User-nav" data-bs-toggle="collapse" href="#">

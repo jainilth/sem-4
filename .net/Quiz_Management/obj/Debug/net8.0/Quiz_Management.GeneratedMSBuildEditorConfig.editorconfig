@@ -28,6 +28,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/jainil/sem-4/.net/Quiz_Management/Views/QuestionLevel/AddQuestionLevel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxBZGRRdWVzdGlvbkxldmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/Quiz_Management/Views/QuestionLevel/QuestionLevelList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxRdWVzdGlvbkxldmVsTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/Quiz_Management/Views/Question/AddQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cQWRkUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/Quiz_Management/Views/Question/QuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/Quiz_Management/Views/QuizWiseQuestion/AddQuizWiseQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxBZGRRdWl6V2lzZVF1ZXN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/jainil/sem-4/.net/Quiz_Management/Views/QuizWiseQuestion/QuizWiseQuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/jainil/sem-4/.net/Quiz_Management/Views/Quiz/QuizAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxRdWl6QWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

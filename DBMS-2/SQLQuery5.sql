@@ -142,6 +142,7 @@ end
 drop trigger TR_Person_Instedof_Insert
 drop trigger TR_Person_insteadof_Update
 drop trigger TR_Person_insteadof_DELETE
+drop trigger TR_STOP_DUPLICATE
 --4. Create  a trigger that  fires on  INSERT  operation on  the  PersonInfo  table  to  convert  person name  into 
 --uppercase whenever the record is inserted. 
 create trigger TR_Person_Upper
@@ -177,3 +178,92 @@ BEGIN
 END
 
 --6. Create trigger that prevent Age below 18 years.
+create trigger TR_prevent_Age
+on PersonInfo
+instead of insert
+as
+begin
+	declare @age int
+	select @age=Age from inserted
+	if @age<18
+	begin
+		print 'age can not be inserted'
+	end
+	else
+	begin
+		INSERT INTO PersonInfo (PersonID, PersonName, Salary, JoiningDate, City, Age, BirthDate)
+		SELECT 
+		PersonID, PersonName, Salary, JoiningDate, City, Age, BirthDate
+		FROM inserted
+	end
+end
+		
+insert into PersonInfo
+values(1,'jayraj',20000.00,'21-FEB-2023','Rajkot',10,'22-JAN-2004')
+drop trigger TR_prevent_Age
+
+select * from PersonInfo
+
+--Part – B
+--7. Create a trigger that fires on INSERT operation on person table, which calculates the age and update that age in Person table.
+create trigger tr_Insert_age_update
+on PersonInfo
+instead of insert
+as
+begin
+
+	declare @PID int, @Age int, @Bdate datetime
+
+	select @PID = PersonID from inserted
+	select @Bdate = BirthDate from inserted
+		
+	set @Age = abs(DATEDIFF(YEAR, @Bdate, GETDATE()))
+
+	update PersonInfo 
+	set BirthDate = @Bdate
+	where PersonID = @PID	
+end--8. Create a Trigger to Limit Salary Decrease by a 10%.create trigger tr_decrease_10
+on PersonInfo
+after update
+as
+begin
+	declare @NewSalary int
+	declare @OldSalary varchar(100),
+		@PersonID int
+
+	select @OldSalary = Salary,@PersonID = PersonID from deleted
+	select @NewSalary = salary from inserted
+	
+	if(@NewSalary < @OldSalary * 0.9)
+	begin
+		update PersonInfo 
+		set salary = @OldSalary
+		where PersonID = @PersonID
+	end
+end
+
+
+--Part – C
+
+--9. Create Trigger to Automatically Update JoiningDate to Current Date on INSERT if JoiningDate is NULL
+--during an INSERT.
+CREATE TRIGGER tr_SetJoiningDate
+ON PersonInfo
+AFTER INSERT
+AS
+BEGIN
+    UPDATE PersonInfo
+    SET JoiningDate = GETDATE()
+    WHERE JoiningDate IS NULL AND PersonID IN (SELECT PersonID FROM Inserted);
+END;
+
+
+--10. Create DELETE trigger on PersonLog table, when we delete any record of PersonLog table it prints
+--‘Record deleted successfully from PersonLog
+CREATE TRIGGER PrintDeleteMessage
+ON PersonLog
+AFTER DELETE
+AS
+BEGIN
+    PRINT 'Record deleted successfully from PersonLog';
+END;
