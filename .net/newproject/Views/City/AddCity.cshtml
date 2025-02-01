@@ -1,21 +1,64 @@
-﻿@* @model AddProduct *@
+﻿<main id="main" class="main">
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb m-3">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item"><a asp-controller="City" asp-action="TableCity">City</a></li>
+                        <li class="breadcrumb-item active">Add/Edit City</li>
+                    </ol>
+                </nav>
 
-@* @using (Html.BeginForm("AddProduct", "Product", FormMethod.Post)) *@
-@* { *@
-@*     <div> *@
-@*         @Html.LabelFor(model => model.PrName) *@
-@*         @Html.TextBoxFor(model => model.PrName, new { @class = "form-control" }) *@
-@*     </div> *@
+                <h5 class="card-title mb-4">City Add/Edit</h5>
 
-@*     <div> *@
-@*         @Html.LabelFor(model => model.Price) *@
-@*         @Html.TextBoxFor(model => model.Price, new { @class = "form-control" }) *@
-@*     </div> *@
+                <form>
 
-@*     <div> *@
-@*         @Html.LabelFor(model => model.Description) *@
-@*         @Html.TextAreaFor(model => model.Description, new { @class = "form-control" }) *@
-@*     </div> *@
+                    <div class="mb-3">
+                        <label for="stateID" class="form-label">State ID</label>
+                        <select class="form-select" id="stateID" required>
+                            <option value="">Select State</option>
+                            <option value="1">State 1</option>
+                            <option value="2">State 2</option>
+                        </select>
+                    </div>
 
-@*     <button type="submit" class="btn btn-primary">Add Product</button> *@
-@* } *@
+                    <div class="mb-3">
+                        <label for="countryID" class="form-label">Country ID</label>
+                        <select class="form-select" id="countryID" required>
+                            <option value="">Select Country</option>
+                            <option value="1">Country 1</option>
+                            <option value="2">Country 2</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="cityName" class="form-label">City Name</label>
+                        <input type="text" class="form-control" id="cityName" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="stdCode" class="form-label">STD Code</label>
+                        <input type="text" class="form-control" id="stdCode">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="pinCode" class="form-label">Pin Code</label>
+                        <input type="text" class="form-control" id="pinCode" maxlength="6">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="userID" class="form-label">User ID</label>
+                        <input type="number" class="form-control" id="userID" required>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-success me-2">Save</button>
+                        <button type="reset" class="btn btn-secondary me-2">Reset</button>
+                        <a asp-controller="City" asp-action="TableCity" class="btn btn-primary">Back</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>

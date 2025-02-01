@@ -1,3 +1,40 @@
 ﻿<main id="main" class="main">
-	<h1>hello</h1>
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb m-3">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item"><a asp-controller="User" asp-action="TableUser">User</a></li>
+                        <li class="breadcrumb-item active">Add/Edit User</li>
+                    </ol>
+                </nav>
+
+                <h5 class="card-title mb-4">User Add/Edit</h5>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">User Name</label>
+                        <input type="text" class="form-control" id="userName" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mobileNo" class="form-label">Mobile No</label>
+                        <input type="tel" class="form-control" id="mobileNo" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="emailID" class="form-label">Email ID</label>
+                        <input type="email" class="form-control" id="emailID" required>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-success me-2">Save</button>
+                        <button type="reset" class="btn btn-secondary me-2">Reset</button>
+                        <a asp-controller="User" asp-action="TableUser" class="btn btn-primary">Back</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </main>

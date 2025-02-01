@@ -1,39 +1,92 @@
 ﻿<main id="main" class="main">
-    <div class="container mt-4">
-        <!-- Title and Add Button -->
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h4 class="fw-bold text-primary">User Details</h4>
-            <a class="btn btn-primary btn-sm px-4 py-2" asp-area="" asp-controller="User" asp-action="AddUser">+ Add User</a>
+    <div class="container-fluid">
+        <!-- Search Section -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title mb-3">Search User</h5>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Enter User Name">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" class="form-control" placeholder="Enter Email ID">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="tel" class="form-control" placeholder="Enter Mobile No">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary me-2">Search</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <!-- Table -->
-        <div class="table-responsive shadow-sm rounded">
-            <table class="table table-striped table-hover align-middle">
-                <thead class="table-primary">
-                    <tr>
-                        <th>UserID</th>
-                        <th>UserName</th>
-                        <th>MobileNo</th>
-                        <th>EmailID</th>
-                        <th>CreationDate</th>
-                        <th class="text-center">Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>John Doe</td>
-                        <td>1234567890</td>
-                        <td>johndoe@example.com</td>
-                        <td>2025-01-01</td>
-                        <td class="text-center">
-                            <button class="btn btn-outline-success btn-sm me-1"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-danger btn-sm"><i class="bi bi-x"></i></button>
-                        </td>
-                    </tr>
-                    <!-- Add more rows as needed -->
-                </tbody>
-            </table>
+        <!-- Table Section -->
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <a asp-controller="User" asp-action="AddUser" class="btn btn-success">+ Add User</a>
+                    <h5 class="card-title mb-0">User List</h5>
+                    <input type="text" style="width:180px" class="form-control" id="quickSearch" placeholder="Quick search...">
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>User ID</th>
+                            <th>User Name</th>
+                            <th>Mobile No</th>
+                            <th>Email ID</th>
+                            <th>Creation Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>1234567890</td>
+                            <td>john@example.com</td>
+                            <td>2024-01-07 09:00:00</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-primary me-1">Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jane Smith</td>
+                            <td>9876543210</td>
+                            <td>jane@example.com</td>
+                            <td>2024-01-08 14:30:00</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-primary me-1">Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+    </div>
     </div>
 </main>

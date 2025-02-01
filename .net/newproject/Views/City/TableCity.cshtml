@@ -1,45 +1,114 @@
 ﻿<main id="main" class="main">
-    <div class="container mt-4">
-        <!-- Title and Add Button -->
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h4 class="fw-bold text-primary">City Details</h4>
-            <a class="btn btn-primary btn-sm px-4 py-2" asp-area="" asp-controller="City" asp-action="AddCity">+ Add City</a>
+    <div class="container-fluid">
+        <!-- Search Section -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title mb-3">Search City</h5>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" placeholder="Enter City Name">
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select" aria-label="Select State">
+                                <option selected>Select State</option>
+                                <option value="1">California</option>
+                                <option value="2">Ontario</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select" aria-label="Select Country">
+                                <option selected>Select Country</option>
+                                <option value="1">United States</option>
+                                <option value="2">Canada</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" placeholder="Enter Pin Code">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary me-2">Search</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
-        <!-- Table -->
-        <div class="table-responsive shadow-sm rounded">
-            <table class="table table-striped table-hover align-middle">
-                <thead class="table-primary">
-                    <tr>
-                        <th>CityID</th>
-                        <th>StateID</th>
-                        <th>CountryID</th>
-                        <th>CityName</th>
-                        <th>STDCode</th>
-                        <th>PinCode</th>
-                        <th>CreationDate</th>
-                        <th>UserID</th>
-                        <th class="text-center">Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>San Francisco</td>
-                        <td>415</td>
-                        <td>94102</td>
-                        <td>2025-01-01</td>
-                        <td>101</td>
-                        <td class="text-center">
-                            <button class="btn btn-outline-success btn-sm me-1"><i class="bi bi-pencil"></i></button>
-                            <button class="btn btn-outline-danger btn-sm"><i class="bi bi-x"></i></button>
-                        </td>
-                    </tr>
-                    <!-- Add more rows as needed -->
-                </tbody>
-            </table>
+        <!-- Table Section -->
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <a asp-controller="City" asp-action="AddCity" class="btn btn-success">+ Add City</a>
+                    <h5 class="card-title mb-0">City List</h5>
+                    <input type="text" style="width:180px" class="form-control" id="quickSearch" placeholder="Quick search...">
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>City ID</th>
+                                <th>State ID</th>
+                                <th>Country ID</th>
+                                <th>City Name</th>
+                                <th>STD Code</th>
+                                <th>Pin Code</th>
+                                <th>Creation Date</th>
+                                <th>User ID</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>Los Angeles</td>
+                                <td>213</td>
+                                <td>90001</td>
+                                <td>2024-01-05 08:30:00</td>
+                                <td>101</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-primary me-1">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>Toronto</td>
+                                <td>416</td>
+                                <td>M5A</td>
+                                <td>2024-01-06 10:45:00</td>
+                                <td>102</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-primary me-1">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <!-- Add more rows as needed -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </main>

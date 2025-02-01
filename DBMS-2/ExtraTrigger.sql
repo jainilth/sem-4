@@ -15,5 +15,11 @@ CREATE TABLE EmployeeLogs (
     ActionDate DATETIME NOT NULL
 );
 
-
-
+--1)	Create a trigger that fires AFTER INSERT, UPDATE, and DELETE operations on the EmployeeDetails table to display the message "Employee record inserted", "Employee record updated", "Employee record deleted"
+create trigger TR_Employee_Details_After_Insert
+on EMPLOYEEDETAILS
+after insert
+as
+begin
+	print 'Employee record inserted'
+end

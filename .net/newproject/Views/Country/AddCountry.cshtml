@@ -1,3 +1,41 @@
 ﻿<main id="main" class="main">
-	<h1>hello</h1>
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb m-3">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item"><a asp-controller="Country" asp-action="Table">Country</a></li>
+                        <li class="breadcrumb-item active">Add/Edit Country</li>
+                    </ol>
+                </nav>
+
+                <h5 class="card-title mb-4">Country Add/Edit</h5>
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="countryName" class="form-label">Country Name</label>
+                        <input type="text" class="form-control" id="countryName" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="creationDate" class="form-label">Creation Date</label>
+                        <input type="datetime-local" class="form-control" id="creationDate" readonly>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="userID" class="form-label">User ID</label>
+                        <input type="number" class="form-control" id="userID" required>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-success me-2">Save</button>
+                        <button type="reset" class="btn btn-secondary me-2">Reset</button>
+                        <a asp-controller="Country" asp-action="Table" class="btn btn-primary">Back</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </main>

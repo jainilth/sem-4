@@ -277,57 +277,80 @@
             </li><!-- End Dashboard Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" asp-area="" asp-controller="Country" asp-action="Table">
-                    <i class="bi bi-globe-central-south-asia"></i>
-                    <span>Country</span>
+                <a class="nav-link collapsed" data-bs-target="#Country-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-globe-central-south-asia"></i><span>Country</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
-            </li><!-- End Country Nav -->
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" asp-area="" asp-controller="State" asp-action="TableState">
-                    <i class="bi bi-globe-central-south-asia"></i>
-                    <span>State</span>
-                </a>
-            </li><!-- End State Nav -->
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" asp-area="" asp-controller="City" asp-action="TableCity">
-                    <i class="bi bi-globe-central-south-asia"></i>                    
-                    <span>City</span>
-                </a>
-            </li><!-- End City Nav -->
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" asp-area="" asp-controller="User" asp-action="TableUser">
-                    <i class="bi bi-people"></i>
-                    <span>User</span>
-                </a>
-            </li><!-- End User Nav -->
-
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-                    <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
-                </a>
-                <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <ul id="Country-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="icons-bootstrap.html">
-                            <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+                        <a asp-controller="Country" asp-action="Table">
+                            <i class="bi bi-circle"></i><span>Country List</span>
                         </a>
                     </li>
                     <li>
-                        <a href="icons-remix.html">
-                            <i class="bi bi-circle"></i><span>Remix Icons</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="icons-boxicons.html">
-                            <i class="bi bi-circle"></i><span>Boxicons</span>
+                        <a asp-controller="Country" asp-action="AddCountry">
+                            <i class="bi bi-circle"></i><span>AddCountry</span>
                         </a>
                     </li>
                 </ul>
-            </li> 
+            </li><!-- End Country Nav -->
 
-            <li class="nav-heading">Pages</li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#State-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-globe-central-south-asia"></i><span>State</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="State-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a asp-controller="State" asp-action="TableState">
+                            <i class="bi bi-circle"></i><span>State List</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="State" asp-action="AddState">
+                            <i class="bi bi-circle"></i><span>Add State</span>
+                        </a>
+                    </li>
+                </ul>
+            </li><!-- End State Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#City-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-globe-central-south-asia"></i><span>City</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="City-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a asp-controller="City" asp-action="TableCity">
+                            <i class="bi bi-circle"></i><span>City List</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="City" asp-action="AddCity">
+                            <i class="bi bi-circle"></i><span>Add City</span>
+                        </a>
+                    </li>
+                </ul>
+            </li><!-- End City Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#User-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-globe-central-south-asia"></i><span>User</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="User-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a asp-controller="User" asp-action="TableUser">
+                            <i class="bi bi-circle"></i><span>User List</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="User" asp-action="AddUser">
+                            <i class="bi bi-circle"></i><span>Add User</span>
+                        </a>
+                    </li>
+                </ul>
+            </li><!-- End User Nav -->
+
+            
+            <!-- <li class="nav-heading">Pages</li>
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="users-profile.html">

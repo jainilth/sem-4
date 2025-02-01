@@ -1,55 +1,58 @@
 -- Country Table
 CREATE TABLE Country (
-    CountryID INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    CountryName VARCHAR(100) UNIQUE NOT NULL,
-    CountryCode VARCHAR(50) NOT NULL,
-    CreationDate DATETIME DEFAULT GETDATE(),
-    UserID INT NOT NULL FOREIGN KEY REFERENCES [User](UserID)
+    CountryID		INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    CountryName		VARCHAR(100) UNIQUE NOT NULL,
+    CountryCode		VARCHAR(50) NOT NULL,
+    CreationDate	DATETIME DEFAULT GETDATE(),
+    UserID			INT NOT NULL FOREIGN KEY REFERENCES [User](UserID)
 );
 
 -- State Table
 CREATE TABLE State (
-    StateID INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    CountryID INT NOT NULL FOREIGN KEY REFERENCES Country(CountryID),
-    StateName VARCHAR(100) UNIQUE NOT NULL,
-    StateCode VARCHAR(50) NOT NULL,
-    CreationDate DATETIME DEFAULT GETDATE(),
-    UserID INT NOT NULL FOREIGN KEY REFERENCES [User](UserID)
+    StateID			INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    CountryID		INT NOT NULL FOREIGN KEY REFERENCES Country(CountryID),
+    StateName		VARCHAR(100) UNIQUE NOT NULL,
+    StateCode		VARCHAR(50) NOT NULL,
+    CreationDate	DATETIME DEFAULT GETDATE(),
+    UserID			INT NOT NULL FOREIGN KEY REFERENCES [User](UserID)
 );
 
 -- City Table
 CREATE TABLE City (
-    CityID INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    StateID INT NOT NULL FOREIGN KEY REFERENCES State(StateID),
-    CountryID INT NOT NULL FOREIGN KEY REFERENCES Country(CountryID),
-    CityName VARCHAR(100) UNIQUE NOT NULL,
-    STDCode VARCHAR(50) NULL,
-    PinCode VARCHAR(6) NULL,
-    CreationDate DATETIME DEFAULT GETDATE(),
-    UserID INT NOT NULL FOREIGN KEY REFERENCES [User](UserID)
+    CityID			INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    StateID			INT NOT NULL FOREIGN KEY REFERENCES State(StateID),
+    CountryID		INT NOT NULL FOREIGN KEY REFERENCES Country(CountryID),
+    CityName		VARCHAR(100) UNIQUE NOT NULL,
+    STDCode			VARCHAR(50) NULL,
+    PinCode			VARCHAR(6) NULL,
+    CreationDate	DATETIME DEFAULT GETDATE(),
+    UserID			INT NOT NULL FOREIGN KEY REFERENCES [User](UserID)
 );
 
 -- User Table
 CREATE TABLE [User] (
-    UserID INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    UserName VARCHAR(100) NOT NULL,
-    MobileNo VARCHAR(50) NOT NULL,
-    EmailID VARCHAR(100) NOT NULL,
-    CreationDate DATETIME DEFAULT GETDATE()
+    UserID			INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    UserName		VARCHAR(100) NOT NULL,
+    MobileNo		VARCHAR(50) NOT NULL,
+    EmailID			VARCHAR(100) NOT NULL,
+    CreationDate	DATETIME DEFAULT GETDATE()
 );
 
+------------------------------------------------------procedure-----------------------------------------------------
+-----------for Country table----------
 
+--insert procedure for Country table
 CREATE OR ALTER PROC PR_Country_Insert
-@CountryName NVARCHAR(100),
-@CountryCode NVARCHAR(50),
-@UserID INT
+@CountryName	NVARCHAR(100),
+@CountryCode	NVARCHAR(50),
+@UserID			INT
 AS
 BEGIN
     INSERT INTO [dbo].[Country]
 	(
-		CountryName,
-		CountryCode,
-		UserID
+		[dbo].[Country].[CountryName],
+		[dbo].[Country].[CountryCode],
+		[dbo].[Country].[UserID]
 	)
     VALUES
     (
@@ -59,6 +62,8 @@ BEGIN
     )
 END
 
+
+--update procedure for Country table
 CREATE OR ALTER PROC PR_Country_Update
 @CountryID INT,
 @CountryName NVARCHAR(100),
@@ -72,6 +77,8 @@ BEGIN
     WHERE [dbo].[Country].[CountryID] = @CountryID
 END
 
+
+--delete procedure for Country table
 CREATE OR ALTER PROC PR_Country_Delete
 @CountryID INT
 AS
@@ -80,6 +87,8 @@ BEGIN
     WHERE [dbo].[Country].[CountryID] = @CountryID
 END
 
+
+--select all procedure for Country table
 CREATE OR ALTER PROC PR_Country_SelectAll
 AS
 BEGIN
@@ -94,6 +103,8 @@ BEGIN
 	on [dbo].[Country].[UserID]=[dbo].[User].[UserID]
 END
 
+
+--select by id procedure for Country table
 CREATE OR ALTER PROC PR_Country_SelectByID
 @CountryID INT
 AS
@@ -109,6 +120,7 @@ BEGIN
     WHERE [dbo].[Country].[CountryID] = @CountryID
 END
 
+--insert procedure for State table
 CREATE OR ALTER PROC PR_State_Insert
 @CountryID INT,
 @StateName NVARCHAR(100),
@@ -132,6 +144,8 @@ BEGIN
     )
 END
 
+
+--update procedure for State table
 CREATE OR ALTER PROC PR_State_Update
 @StateID INT,
 @CountryID INT,
@@ -149,6 +163,8 @@ BEGIN
     WHERE [dbo].[State].[StateID] = @StateID
 END
 
+
+--delete procedure for State table
 CREATE OR ALTER PROC PR_State_Delete
 @StateID INT
 AS
@@ -157,6 +173,8 @@ BEGIN
     WHERE [dbo].[State].[StateID] = @StateID
 END
 
+
+--select all procedure for State table
 CREATE OR ALTER PROC PR_State_SelectAll
 AS
 BEGIN
@@ -170,6 +188,8 @@ BEGIN
     FROM [dbo].[State]
 END
 
+
+--select by id procedure for State table
 CREATE OR ALTER PROC PR_State_SelectByID
 @StateID INT
 AS
@@ -184,6 +204,8 @@ BEGIN
     WHERE [dbo].[State].[StateID] = @StateID
 END
 
+
+--insert procedure for city table
 CREATE OR ALTER PROC PR_City_Insert
 @StateID INT,
 @CountryID INT,
@@ -207,6 +229,8 @@ BEGIN
     )
 END
 
+
+--update procedure for city table
 CREATE OR ALTER PROC PR_City_Update
 @CityID INT,
 @StateID INT,
@@ -230,6 +254,8 @@ BEGIN
     WHERE [dbo].[City].[CityID] = @CityID
 END
 
+
+--delete procedure for city table
 CREATE OR ALTER PROC PR_City_Delete
 @CityID INT
 AS
@@ -238,6 +264,8 @@ BEGIN
     WHERE [dbo].[City].[CityID] = @CityID
 END
 
+
+--select all procedure for city table
 CREATE OR ALTER PROC PR_City_SelectAll
 AS
 BEGIN
@@ -253,6 +281,8 @@ BEGIN
     FROM [dbo].[City]
 END
 
+
+--select by id procedure for city table
 CREATE OR ALTER PROC PR_City_SelectByID
 @CityID INT
 AS
@@ -269,6 +299,8 @@ BEGIN
     WHERE [dbo].[City].[CityID] = @CityID
 END
 
+
+--insert procedure for user table
 CREATE OR ALTER PROC PR_User_Insert
 @UserName NVARCHAR(100),
 @MobileNo NVARCHAR(50),
@@ -286,6 +318,8 @@ BEGIN
     )
 END
 
+
+--update procedure for user table
 CREATE OR ALTER PROC PR_User_Update
 @UserID INT,
 @UserName NVARCHAR(100),
@@ -303,6 +337,8 @@ BEGIN
     WHERE [dbo].[User].[UserID] = @UserID
 END
 
+
+--delete procedure for user table
 CREATE OR ALTER PROC PR_User_Delete
 @UserID INT
 AS
@@ -311,6 +347,8 @@ BEGIN
     WHERE [dbo].[User].[UserID] = @UserID
 END
 
+
+--select all procedure for user table
 CREATE OR ALTER PROC PR_User_SelectAll
 AS
 BEGIN
@@ -323,6 +361,8 @@ BEGIN
     FROM [dbo].[User]
 END
 
+
+--select by id procedure for user table
 CREATE OR ALTER PROC PR_User_SelectByID
 @UserID INT
 AS
