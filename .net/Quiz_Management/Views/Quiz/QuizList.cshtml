@@ -1,4 +1,7 @@
-﻿<main id="main" class="main">
+﻿@model DataTable
+@using System.Data
+
+<main id="main" class="main">
     <div class="container-fluid">
         <!-- Search Section -->
         <div class="card mb-4">
@@ -38,52 +41,51 @@
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
+                                <th>Quiz Id</th>
                                 <th>Quiz Name</th>
                                 <th>Total Questions</th>
                                 <th>Quiz Date</th>
-                                <th>User ID</th>
+                                <th>User Name</th>
+                                <th>Created</th>
                                 <th>Modified</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>General Knowledge Quiz</td>
+                                <td>1</td>
+                                <td>General Knowledge Qui</td>
                                 <td>20</td>
                                 <td>2024-01-15</td>
                                 <td>1001</td>
+                                <td>2024-01-28</td>
                                 <td>2024-01-28</td>
                                 <td>
                                     <button class="btn btn-sm btn-outline-primary me-1">Edit</button>
                                     <button class="btn btn-sm btn-outline-danger">Delete</button>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>Science Trivia</td>
-                                <td>15</td>
-                                <td>2024-01-20</td>
-                                <td>1002</td>
-                                <td>2024-01-27</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary me-1">Edit</button>
-                                    <button class="btn btn-sm btn-outline-danger">Delete</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>History Challenge</td>
-                                <td>25</td>
-                                <td>2024-01-25</td>
-                                <td>1003</td>
-                                <td>2024-01-26</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary me-1">Edit</button>
-                                    <button class="btn btn-sm btn-outline-danger">Delete</button>
-                                </td>
-                            </tr>
+
+                            @foreach (DataRow row in Model.Rows)
+                            {
+                                <tr>
+                                    <td>@row["QuizID"]</td>
+                                    <td>@row["QuizName"]</td>
+                                    <td>@row["TotalQuestions"]</td>
+                                    <td>@row["QuizDate"]</td>
+                                    <td>@row["UserName"]</td>
+                                    <td>@row["Created"]</td>
+                                    <td>@row["Modified"]</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-primary me-1">Edit</button>
+                                        <button class="btn btn-sm btn-outline-danger">Delete</button>
+                                    </td>
+                                </tr>
+                            }
                         </tbody>
                     </table>
                 </div>
-
+                
                 <div class="d-flex justify-content-between align-items-center">
                     <div>Showing 1 to 3 of 3 entries</div>
                     <nav>
