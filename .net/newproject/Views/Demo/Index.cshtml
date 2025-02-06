@@ -57,13 +57,13 @@
                         <button type="reset" class="btn btn-secondary me-2">Reset</button>
                         <a asp-controller="City" asp-action="TableCity" class="btn btn-primary">Back</a>
                     </div>
-                    <div class="mt-3">@Html.ActionLink("Register yourself","TableCity","City")</div>
+                    <div class="mt-3">@Html.ActionLink("Register yourself", "TableCity", "City")</div>
                     <div class="mt-3">@Html.ActionLink("simple link to a 'home' controller 'index' action", "Index", "Home")</div>
                     <div class="mt-3">
                         <a href="@Url.Action("TableCity","City")">Register yourself</a>
                     </div>
                     @Url.Action("TableCity", "City")
-                    @Html.ActionLink("Register yourself", "Index","Home",null,new{@class="btn btn-warning"})
+                    @Html.ActionLink("Register yourself", "Index", "Home", null, new { @class = "btn btn-warning" })
                 </form>
             </div>
         </div>
