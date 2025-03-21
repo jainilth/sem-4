@@ -73,7 +73,9 @@ CREATE OR ALTER PROC PR_MST_User_Insert
     @UserName		NVARCHAR(100),
     @Email			NVARCHAR(100),
     @Password		NVARCHAR(100),
-	@Mobile			NVARCHAR(100)
+	@Mobile			NVARCHAR(100),
+	@IsActive		Int,
+	@IsAdmin        Int
 AS
 BEGIN
 	DECLARE @Modified DATETIME = GETDATE();
@@ -83,8 +85,9 @@ BEGIN
         [dbo].[MST_User].[Email],
         [dbo].[MST_User].[Password],
         [dbo].[MST_User].[Modified],
-		[dbo].[MST_User].[Mobile]
-
+		[dbo].[MST_User].[Mobile],
+		[dbo].[MST_User].[IsActive],
+		[dbo].[MST_User].[IsAdmin]
     )
     VALUES
     (
@@ -92,10 +95,12 @@ BEGIN
         @Email,
         @Password,
         @Modified,
-		@Mobile
+		@Mobile,
+		1,
+		0
     )
 END
---EXEC PR_MST_User_Insert 'smit','smitmaru2005@gmail.com','smit@123','9021234354'
+--EXEC PR_MST_User_Insert 'smit','smitmaru2005@gmail.com','smit@123','9021234354',1,0
 
 --Stored Procedures for MST_User Table Update
 CREATE OR ALTER PROC PR_MST_User_Update
@@ -374,7 +379,7 @@ BEGIN
         [dbo].[MST_Question].[OptionB],
         [dbo].[MST_Question].[OptionC],
         [dbo].[MST_Question].[OptionD],
-		[dbo].[MST_Question].[OptionA]+','+[dbo].[MST_Question].[OptionB]+','+[dbo].[MST_Question].[OptionC]+','+[dbo].[MST_Question].[OptionD] AS All_in_One,
+		'(a) '+[dbo].[MST_Question].[OptionA]+',(b) '+[dbo].[MST_Question].[OptionB]+',(c) '+[dbo].[MST_Question].[OptionC]+',(d) '+[dbo].[MST_Question].[OptionD] AS All_in_One,
         [dbo].[MST_Question].[CorrectOption],
         [dbo].[MST_Question].[QuestionMarks],
         [dbo].[MST_Question].[IsActive],

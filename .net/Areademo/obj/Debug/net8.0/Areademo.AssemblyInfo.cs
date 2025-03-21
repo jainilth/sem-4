@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Areademo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec8e8693538b302b8ee4d673efbc4604c79c8af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6577f96e43fffbd54cfd7cb756268e3648bdbe92")]
 [assembly: System.Reflection.AssemblyProductAttribute("Areademo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Areademo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

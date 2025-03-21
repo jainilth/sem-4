@@ -1,8 +1,27 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+﻿@model DataTable
+@using System.Data
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>EMP ID</th>
+                <th>EMPNAME</th>
+                <th>SALARY</th>
+                <th>DEPT</th>
+                <th>JOINING DATE</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.Rows)
+                {
+                    <tr>
+                        <td>@row["empid"]</td>
+                        <td>@row["empname"]</td>
+                        <td>@row["salary"]</td>
+                        <td>@row["dept"]</td>
+                    <td>@row["joiningdate"]</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
 </div>

@@ -230,3 +230,9 @@ D:\jainil\sem-4\.net\Areademo\obj\Debug\net8.0\refint\Areademo.dll
 D:\jainil\sem-4\.net\Areademo\obj\Debug\net8.0\Areademo.pdb
 D:\jainil\sem-4\.net\Areademo\obj\Debug\net8.0\Areademo.genruntimeconfig.cache
 D:\jainil\sem-4\.net\Areademo\obj\Debug\net8.0\ref\Areademo.dll
+D:\jainil\sem-4\.net\Areademo\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\jainil\sem-4\.net\Areademo\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\jainil\sem-4\.net\Areademo\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\jainil\sem-4\.net\Areademo\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\jainil\sem-4\.net\Areademo\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\jainil\sem-4\.net\Areademo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
