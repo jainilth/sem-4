@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\jainil\\sem-4\\.net\\newproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\city\\tablecity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\city\\tablecity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\models\\taghelper\\democs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:models\\taghelper\\democs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\city\\addcity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\city\\addcity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|solutionrelative:views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D0455A4-EF8B-45CE-A7C3-77D3D5C94866}|newproject.csproj|d:\\jainil\\sem-4\\.net\\newproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T03:28:05.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TableCity.cshtml",
+              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\City\\TableCity.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\TableCity.cshtml",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\City\\TableCity.cshtml",
+              "RelativeToolTip": "Views\\City\\TableCity.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T03:25:53.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -63,19 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Democs.cs",
-              "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Models\\TagHelper\\Democs.cs",
-              "RelativeDocumentMoniker": "Models\\TagHelper\\Democs.cs",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\newproject\\Models\\TagHelper\\Democs.cs",
-              "RelativeToolTip": "Models\\TagHelper\\Democs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T02:38:16.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Demo\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Demo\\Index.cshtml",
@@ -95,11 +113,12 @@
               "RelativeToolTip": "Controllers\\DemoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T07:20:41.081Z"
+              "WhenOpened": "2025-02-05T07:20:41.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddCity.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\City\\AddCity.cshtml",
               "RelativeDocumentMoniker": "Views\\City\\AddCity.cshtml",
@@ -107,11 +126,12 @@
               "RelativeToolTip": "Views\\City\\AddCity.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAcwDIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-05T03:23:15.991Z"
+              "WhenOpened": "2025-02-05T03:23:15.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TableUser.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\User\\TableUser.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\TableUser.cshtml",
@@ -123,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -135,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -147,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\newproject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
