@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|d:\\jainil\\sem-5\\adv .net\\lab\\addressdemo\\views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5AD38584-7A2E-404D-A0A1-DE94CB7077D4}|AddressDemo.csproj|solutionrelative:views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-08T06:17:18.864Z",
               "EditorCaption": ""
@@ -60,45 +64,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-08T05:55:05.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\City\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\City\\Index.cshtml",
-              "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\City\\Index.cshtml*",
-              "RelativeToolTip": "Views\\City\\Index.cshtml*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T05:59:34.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CityController.cs",
               "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CityController.cs",
               "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Controllers\\CityController.cs",
               "RelativeToolTip": "Controllers\\CityController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBUAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T05:55:00.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T05:55:00.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:42:33.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\City\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\Index.cshtml",
+              "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\City\\Index.cshtml",
+              "RelativeToolTip": "Views\\City\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T05:59:34.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T15:47:53.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CityModel.cs",
               "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Models\\CityModel.cs",
               "RelativeDocumentMoniker": "Models\\CityModel.cs",
@@ -106,12 +119,11 @@
               "RelativeToolTip": "Models\\CityModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T05:56:06.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T05:56:06.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -119,34 +131,31 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T06:07:57.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T06:07:57.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T06:04:39.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T06:04:39.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CityAddEdit.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\City\\CityAddEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\City\\CityAddEdit.cshtml",
               "ToolTip": "D:\\jainil\\sem-5\\ADV .net\\Lab\\AddressDemo\\Views\\City\\CityAddEdit.cshtml",
               "RelativeToolTip": "Views\\City\\CityAddEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T06:05:39.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T06:05:39.535Z"
             }
           ]
         }
