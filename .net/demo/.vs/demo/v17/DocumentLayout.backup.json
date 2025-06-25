@@ -46,9 +46,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\jainil\\sem-4\\.net\\demo\\Views\\employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\employee\\Index.cshtml",
-              "ToolTip": "D:\\jainil\\sem-4\\.net\\demo\\Views\\employee\\Index.cshtml*",
-              "RelativeToolTip": "Views\\employee\\Index.cshtml*",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAAwBMBAAAZAAAAAAAAAA==",
+              "ToolTip": "D:\\jainil\\sem-4\\.net\\demo\\Views\\employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-03T04:35:20.526Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T07:55:02.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T07:55:02.087Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T07:40:20.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T07:40:20.149Z"
             }
           ]
         }
